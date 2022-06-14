@@ -1,0 +1,23 @@
+{
+  "name": "udy-nodejsceroaexperto-04-tareas-hacer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarluilly/UDY-NODEJSCEROAEXPERTO-04-tareas-hacer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarluilly/UDY-NODEJSCEROAEXPERTO-04-tareas-hacer/issues"
+  },
+  "homepage": "https://github.com/cesarluilly/UDY-NODEJSCEROAEXPERTO-04-tareas-hacer#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
