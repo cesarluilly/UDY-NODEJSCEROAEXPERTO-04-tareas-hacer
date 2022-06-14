@@ -20,7 +20,23 @@ const main = async()=> {
 main();
 ```
 
+## Video 46 - stdin - stdout - Readline
 
+La manera de usar stdin - stdout - readline
+
+```js
+//  //Importamos el readline
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+//  //Realizamos una pregunta.
+readline.question('Seleccione una opcion: ', (opt) => {
+    // console.log({opt});
+    readline.close();
+})
+```
 
 
 
