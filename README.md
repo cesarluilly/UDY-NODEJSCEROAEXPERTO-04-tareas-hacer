@@ -87,9 +87,25 @@ const mostrarMenu = () => {
 tipo de validaciones justamente porque alguien ya se encontro con la
 misma problematica y ya iso el paquete.
 
-## Video 48
+## Video 48 Nota para la siguiente clase
 
-## Video 49
+Inquirer
+En la siguiente clase trabajaremos con el paquete inquirer, 
+les dejo el enlace para que lo abran y lo lean antes de que 
+lo empecemos a usar:
+
+https://www.npmjs.com/package/inquirer
+
+Recuerden revisar la documentación de estos paquetes, porque 
+usualmente ahí nos dicen todo lo que pueden hacer.
+
+## Video 49 Construir el menu interactivo - Inquirer
+
+Inquier es basicamente una forma intertiva de crear aplicaciones 
+de ventana de comandos
+
+Ejecutamos el siguiente comando
+> `npm install inquirer`
 
 ## Video 50
 
