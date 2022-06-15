@@ -1,7 +1,7 @@
 //  //Se recomienda primero importar paquetes de terceros
 require('colors');
 
-const { inquirerMenu } = require('./helpers/inquirer')
+const { inquirerMenu, inquirePausa } = require('./helpers/inquirer')
 
 
 
@@ -16,7 +16,9 @@ const main = async()=> {
     let opt = ''
     do {
         opt = await inquirerMenu();
-        console.log(opt);
+        console.log({opt});
+
+        await inquirePausa();
         
            
         

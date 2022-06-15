@@ -107,7 +107,57 @@ de ventana de comandos
 Ejecutamos el siguiente comando
 > `npm install inquirer`
 
-## Video 50
+Como utilizar el paquete.
+
+```js
+const preguntas = [
+    {
+        type: 'list',
+        name: 'opcion',
+        message: 'Que desea hacer?',
+        choices: ['1. Crear lista', 'opt2', 'opt3']
+    }
+];
+
+const inquirerMenu = async() => {
+// console.clear();
+
+console.log('============================'.green);
+console.log('  Seleccione una opción'.green);
+console.log('============================\n'.green);
+
+const opt = await inquirer.prompt(preguntas);
+
+return opt;
+}
+```
+
+## Video 50 Opciones del menu interactivo
+
+Nueva forma de mandar preguntas a traves de una lista de atributo-valor.
+
+```js
+//  //Ejemplo
+const preguntas = [
+{
+    type: 'list',
+    name: 'opcion',
+    message: 'Que desea hacer?',
+    choices: [
+        {
+            value:'1',
+            name:'1. Crear tarea'
+        }
+    ]
+}
+
+//  //Ejemplo de invocacion del prompt.
+const { opcion } = await inquirer.prompt(preguntas);
+
+ ```
+
+
+
 
 ## Video 51
 
